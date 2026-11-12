@@ -29,11 +29,17 @@ body {
     cursor: pointer;
 }
 nav {
-    margin: 10px 0;
+    width: 458px;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    text-align: center;
 }
+
 li {
     display: inline;
     margin-right: 15px;
+    letter-spacing: 2%;
 }
 li:hover {
     text-decoration: underline;
@@ -92,6 +98,7 @@ li:hover {
     align-items: center;
     color: white;
     position: relative;
+    border-radius: 10px;
 }
 .h2sec1{
     width: 700px;
