@@ -20,9 +20,10 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-    width: 1240px;
+    width: 1440px;
     
 }
+
 .logo:hover {
     transform: scale(1.05);
     transition: transform 0.3s;
